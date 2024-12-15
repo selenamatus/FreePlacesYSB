@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\free_places.props" />
+</Project>

@@ -1,0 +1,6 @@
+@free_places_HostAddress = http://localhost:5137
+
+GET {{free_places_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מערכת ניהול חניה</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">דף הבית</a></li>
+                <li><a href="#" id="contact-button">צור קשר</a></li>
+            </ul>
+        </nav>
+        <img src="logo.png" alt="לוגו YSB" style="width: 150px; height: auto;">
+        <div class="logo-container">
+            <img src="gevyam.png" alt="לוגו גב ים" class="gav-yam-logo">
+        </div>
+    </header>
+
+    <main>
+        <section id="parking-lots" class="parking-grid">
+            <!--<div class="parking-item">
+         <h3>סטייק הולדר חניון תת קרקעי</h3>
+         <p>מקומות פנויים: <span id="available-spots-14"></span></p>
+         <canvas id="load-gauge-14" width="200" height="200"></canvas>
+     </div>-->
+            <!--<div class="parking-item">
+        <h3>סטייק הולדר חניון כורכר</h3>
+        <p>מקומות פנויים: <span id="available-spots-15"></span></p>
+        <canvas id="load-gauge-15" width="200" height="200"></canvas>
+    </div>-->
+            <div class="parking-item">
+                <h3>NOVA</h3>
+                <p>מקומות פנויים: <span id="available-spots-4"></span></p>
+                <canvas id="load-gauge-4" width="200" height="200"></canvas>
+            </div>
+            <div class="parking-item">
+                <h3>NOVA כורכר</h3>
+                <p>מקומות פנויים: <span id="available-spots-24"></span></p>
+                <canvas id="load-gauge-24" width="200" height="200"></canvas>
+            </div>
+            <!--<div class="parking-item">
+        <h3>פאי קרדיה</h3>
+        <p>מקומות פנויים: <span id="available-spots-9"></span></p>
+        <canvas id="load-gauge-9" width="200" height="200"></canvas>
+    </div>-->
+        </section>
+    </main>
+
+    <div id="custom-popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p>לכל תקלה שהיא יש לפנות לגדי - 0543978532</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

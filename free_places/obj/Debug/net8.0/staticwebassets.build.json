@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "McwLDwvHze7RRCdgvtPXggx1+Bm/RhmWr/sPmtX4igM=",
+  "Source": "free_places",
+  "BasePath": "_content/free_places",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "free_places\\wwwroot",
+      "Source": "free_places",
+      "ContentRoot": "C:\\Users\\selenam\\free_places\\free_places\\wwwroot\\",
+      "BasePath": "_content/free_places",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\selenam\\free_places\\free_places\\wwwroot\\script.js",
+      "SourceId": "free_places",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\selenam\\free_places\\free_places\\wwwroot\\",
+      "BasePath": "_content/free_places",
+      "RelativePath": "script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\selenam\\free_places\\free_places\\wwwroot\\style.css",
+      "SourceId": "free_places",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\selenam\\free_places\\free_places\\wwwroot\\",
+      "BasePath": "_content/free_places",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}
