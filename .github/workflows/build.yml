@@ -16,23 +16,13 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '6.0.x'
-
-      - name: Debugging - List Files
-        run: |
-          echo "Current directory:"
-          pwd
-          echo "Files in current directory:"
-          ls -R
-
-      - name: Change to Project Directory
-        run: cd free_places && ls -la
+          dotnet-version: '8.0.x'
 
       - name: Restore Dependencies
-        run: dotnet restore free_places/free_places.csproj
+        run: dotnet restore free_places.csproj
 
       - name: Build Project
-        run: dotnet build free_places/free_places.csproj --configuration Release --no-restore
+        run: dotnet build free_places.csproj --configuration Release --no-restore
 
       - name: Run Tests (if any)
-        run: dotnet test free_places/free_places.csproj --no-restore --verbosity normal
+        run: dotnet test free_places.csproj --no-restore --verbosity normal
